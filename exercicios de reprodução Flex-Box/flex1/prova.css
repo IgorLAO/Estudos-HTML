@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+}
+
+
+.container{
+    height: 100vh;
+flex-direction: row;
+background-color: aquamarine;
+margin: 3px;
+display: flex;
+
+}
+
+
+.sla{
+width: 700px;
+ display: flex;
+ align-items: end;
+
+ 
+}
+
+
+#quadrado1{
+    
+border: 6px solid blue ;
+height: 200px;
+width: 200px;
+margin: 15px;
+
+
+}
+
+.sla2 {
+    width: 700px;
+     display: flex;
+     align-items: center ;
+     justify-content: center;   
+     
+    }
+    
+    #quadrado2{ 
+        
+    border: 6px solid blue ;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+
+  }
+    
+  .sla3 {
+    width: 700px;
+     display: flex;
+     align-items: flex-start ;
+     justify-content:flex-end ;   
+     
+    }
+    
+    #quadrado3{ 
+        
+    border: 6px solid blue ;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+
+  }
+    
+
+
+    

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    
+}
+
+.cabeçalho{
+height: 20vh;
+background-color: aqua;
+
+}
+.MEIO{
+
+height: 40px;
+background-color: blue;
+display: flex;
+
+}
+
+.bloco1{
+flex-direction:column;
+background-color: red;
+
+}
+
+.BAIXO{
+height: 200px;
+background-color: blueviolet;
+
+
+}

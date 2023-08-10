@@ -1,0 +1,32 @@
+@font-face {
+    font-family:'HP1' ;
+    src: url(../assets/fonts/Gilroy-Bold.390fb1506ba4436b844a0d796d431498.woff2);
+}
+@font-face {
+    font-family:'HP2' ;
+    src: url(../assets/fonts/Gilroy-Bold.woff2);
+}
+@font-face {
+    font-family:'HP3' ;
+    src: url(../assets/fonts/Gilroy-Medium.woff2);
+}
+@font-face {
+    font-family:'HP4' ;
+    src: url(../assets/fonts/Gilroy-Regular.woff2);
+}
+@font-face {
+    font-family:'HP5' ;
+    src: url(../assets/fonts/street-bold.woff2);
+}
+@font-face {
+    font-family:'HP6' ;
+    src: url(../assets/fonts/street.woff2);
+}
+@font-face {
+    font-family:'HP7' ;
+    src: url(../assets/fonts/roboto-regular.woff2);
+}
+@font-face {
+    font-family:'HP8' ;
+    src: url(../assets/fonts/Gilroy-Regular.c78720ba66ffe58324e722d0d0043b17.woff2);
+}

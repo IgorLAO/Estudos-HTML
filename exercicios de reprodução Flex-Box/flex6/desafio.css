@@ -1,0 +1,57 @@
+
+*{
+
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+
+.mãe{
+    height: 300px;
+    width: 400px;
+background-color: rgb(15, 136, 241);
+display: flex;
+flex-direction: column;
+
+
+}
+
+.div1{
+    background-color: rgb(65, 65, 182);
+    height: 20vh;
+
+}
+
+
+.div3{
+display: flex;
+background-color: brown;
+height: 20vh;
+align-self: flex-end;
+
+
+}
+
+.pai{
+display: flex;
+flex-direction: row;
+flex-grow: 1;
+height: 60vh;
+
+}
+
+.direita1{
+background-color: rgba(209, 243, 19, 0.267);
+flex-grow: 1;
+}
+
+.direita2{
+    flex-grow: 1;
+    background-color: chartreuse;
+}
+
+.direita3{
+    background-color: rgba(44, 8, 175, 0.267);
+    flex-grow: 1;
+    }

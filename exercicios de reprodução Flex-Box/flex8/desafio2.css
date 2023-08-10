@@ -1,0 +1,35 @@
+.container{
+    background-color: aliceblue;
+    height: 700px;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: start;
+    
+}
+
+.container div{
+    height: 500px;
+    flex-grow: ;
+    flex-direction: ;
+}
+
+
+#item1{
+    background-color: aquamarine;
+}
+#item2{
+    background-color: rgb(152, 147, 190);
+    width: 500px;
+    
+}
+#item3{
+    background-color: rgb(126, 221, 48);
+    width: 500px;
+   align-self: center;
+   justify-self:right ;
+}
+    
+#item4{
+    background-color: rgb(56, 53, 194);
+}

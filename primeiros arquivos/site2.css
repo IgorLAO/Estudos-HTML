@@ -1,0 +1,42 @@
+div{
+    color: black;
+}
+img{ width: 700px;
+    border-radius: 50;
+
+}
+body{
+    background-color: rgb(93, 169, 240);
+    text-align: center;
+    padding: 10px;
+}
+button{
+    border-radius: 50px;
+    width: 200px;
+    height: 100px;
+    border: none;
+    box-shadow: 5px 15px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:  rgb(61, 104, 197) ;
+}
+button:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+
+
+.caixa{
+    background-color: rgb(136, 164, 224);
+    height: 300px;
+    height: 350px;
+    border-radius: 0px;
+    padding: 50px;
+    box-shadow: 15px 15px 7px blue;
+    text-align: center;
+
+
+}
+h1{
+    text-shadow: 0px 10px 20px rgb(0, 0, 0);
+    border: solid;
+}

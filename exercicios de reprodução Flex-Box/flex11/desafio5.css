@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;   
+    
+    
+}
+
+
+
+.cabeçalho{
+    display: flex;
+    height: 20vh;
+   flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    background-color: black;
+
+}
+.cabeçalho div{
+    
+    height: 70px;
+    width: 60px;
+    margin: 5px;
+    
+    background-color: rgb(196, 202, 207);
+
+}
+
+.esquerda{
+    flex-grow: 1;
+    display: flex;
+    
+    
+    
+    background-color: rgb(248, 147, 24);
+     flex-direction: column;
+
+
+}
+.esquerda div{
+
+    background-color: rgb(118, 122, 126);
+    height: 20px;
+    margin: 5px;
+   
+    
+    
+
+}
+#grande{
+  
+
+    background-color: rgb(118, 122, 126);
+    flex-grow: 1;
+
+}
+ .direita{
+    flex-grow: 2;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(26, 78, 26);
+     
+
+ }
+ .direita div{
+    height: 200px;
+    width: 200px;
+    display: flex;
+   
+    
+    background-color:  rgb(118, 122, 126);
+
+ }
+ .conteudo{
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+ }
+
+ .baixo{ 
+     display: flex;
+    
+     height: 20vh;
+     align-items: center;
+     justify-content: center;
+
+    background-color: rgb(197, 38, 38);
+ }
+#caixinha{
+    display: flex;
+    
+    background-color: rgb(118, 122, 126); 
+    height: 50px;
+    width: 300px;
+
+ }

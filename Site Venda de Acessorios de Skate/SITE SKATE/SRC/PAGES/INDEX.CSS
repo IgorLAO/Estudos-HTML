@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+    color: #000 ;
+    text-decoration: none;
+
+    font: 14px 'skateFont';
+
+}
+
+.cabecalho{
+
+    position: f;
+
+}
+
+.faixa-1 {
+    display: flex;
+    flex-direction: row;
+
+}
+.faixa-1 svg{
+    height: 15px;
+    margin: 5px;
+
+}
+
+.faixa-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 122px;
+
+}
+.faixa-2 input{
+    height: 44px;
+    width: 440px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 200px;
+
+}
+.faixa-2 >svg{
+    position: absolute;
+    height: 30px;
+    right: 470px;
+
+}
+
+#logoSkater{
+    height: 80px;
+    width: 200px;
+
+}
+
+.utilitarios{
+    display: flex;
+    flex-direction: row;
+    font: 12px 'skateFont';
+
+}
+.utilitarios div{
+    margin: 10px;
+
+}
+.utilitarios svg{
+    height: 18px;
+
+}
+
+.listas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+    border: #0000004f 1px solid;
+
+}
+.listas a{
+    justify-content: center;
+    margin: 1px;
+
+}
+
+.text-Rodas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 87px;
+    margin-bottom: 40px;
+
+}
+.text-Rodas h1{
+    font: 38px 'skateFont';
+    font-weight: bolder;
+    margin-top: 50px;
+
+}
+.text-Rodas p{
+    font: 14px 'skateFont';
+
+}
+
+.s2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.utilitarios-2{
+    height: 44px;
+    margin-bottom: 50px;
+    width: 1050px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.utilitarios-2 select{
+    height: 43px;
+    width: 255px;
+    border-radius: 10px;
+
+}
+
+.s3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.input_text input{
+    border-radius: 10px;
+    border: solid #0000002f;
+
+}
+.input_text button{
+    border-radius: 50px;
+    border: solid #0000002f;
+
+}
+
+b{
+    font-weight: bolder;
+
+}
+.filtros h3{
+    margin-bottom: 20px;
+    font: 20px 'skateFont';
+    font-weight: bolder;
+    margin-top: 10px;
+
+}
+.filtros p{
+    font: 15px 'skateFont';
+    font-weight: bolder;
+    margin: 10px;
+
+}
+
+.filtros {
+    height: 20px;
+    margin-top: 18px;
+    
+}
+
+
+.input_text input{
+    width: 35px;
+
+}
+
+.rodas img{
+    height: 280px;  
+    width: 280px;
+
+}
+
+.blocosRodas{
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.171); 
+    height: 416px;
+    width: 285px;
+    text-align: center;
+
+}
+
+.blocosRodas p{
+    margin-bottom: 10px;
+
+}
+.rodas div{
+    margin: 15px;
+
+}
+.listas svg{
+    height: 12px;
+
+}
+.check{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.utilitarios-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+
+.linha-1{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.linha-2{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.linha-3{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.linha-4{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.linha-5{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.linha-6{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.linha-7{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.colunas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #E5E5E5;
+    height: 450px;
+    padding: 48px;
+
+}
+footer h1{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+footer .linhazinha{
+    background-color: #0000004f;
+    height: 1px;
+    width: 700px;
+    margin-left: 300px;
+}
+
+.coluna-1 p{
+    margin-bottom: 20px;
+    
+}
+.coluna-2 p{
+    margin-bottom: 20px;
+
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    
+}
+.redes div{
+    width: 20px;
+    height: 40px;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 50px;
+    margin: 10px;
+
+
+}
+.coluna-3 svg{
+    height: 25px;
+   
+}
+.redes div:hover{
+    background-color: #E5E5E5;
+    transition: 0.5s;
+    filter: invert(100%);
+    background-color: #fff;
+
+}
+#filtrar_none {
+    display: none;
+
+}
+.none{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.faixa_preta{
+    background-color: #000;
+    height: 70px;
+    display: flex;
+    align-items: center;
+ 
+
+}
+.faixa_preta p{
+   color: #fff;
+   margin-left: 30px; 
+   
+}
+
+.linhazinha2{
+    background-color: #000;
+    height: 3px;
+
+}
+
+/*                     */
+      
+@media screen and (max-width: 760px){
+    .listas {
+        visibility:hidden;
+
+      }
+
+      .rodas div{
+        display: flex;
+        flex-direction: column;
+
+      }
+      .rodas img{
+        height: 580px;  
+        width: 580px;
+    
+    }
+    
+    .blocosRodas{
+        border-radius: 15px;
+        border: 1px solid rgba(0, 0, 0, 0.171); 
+        height: 762px;
+        width: 540px;
+        text-align: center;
+    
+    }
+    .filtros{
+        visibility:hidden;
+
+    }
+
+    .faixa-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 122px;
+
+    }
+    #logoSkater {
+        height: 50px;
+        width: 125px;
+
+    }
+    .faixa-2 input{
+        width: 428px;
+        height: 45px;
+        padding: 20px;
+        margin-left: -5px;
+
+    }
+    .utilitarios{
+        display: none;
+
+    }
+    .utilitarios .iconcarro{
+        display: inline-block;
+
+    }
+    
+    .utilitarios-2{
+        height: 44px;
+        margin-bottom: 50px;
+        width: 100px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+    .blocosRodas{
+        margin-left: -100px;
+
+    }
+
+    .s3{
+        margin-left: -160px;
+
+    }
+
+    .mini_utili{
+        display: none;
+
+    }
+    #filtrar_none {
+        display: flex;
+        border: #000 solid; 
+        border-radius: 15px;
+        height: 35px;
+        width: 100px;
+        margin-left: -300px;
+
+    }
+
+    
+    .text-Rodas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 87px;
+        margin-bottom: 40px;
+
+    }
+
+    .text-Rodas p{
+        font: 10px 'skateFont';
+    
+    }
+
+}

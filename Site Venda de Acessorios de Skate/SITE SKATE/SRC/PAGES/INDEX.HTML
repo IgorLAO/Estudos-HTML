@@ -1,0 +1,408 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="INDEX.CSS">
+    <link rel="stylesheet" href="../COMMON/text.css">
+    <link rel="icon" type="image/png" href="/ASSETS/IMAGES/ImageRodas/skateLogo.png "/>
+    <title>Roda de Skate</title>
+</head>
+<body>
+    <div class="faixa-1"> 
+        <svg class="icon-inline icon-md" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg> <svg class="icon-inline icon-md" viewBox="0 0 320 512"><path d="M279.1 288l14.3-92.7h-89v-60c0-25.4 12.5-50.2 52.3-50.2H297V6.4S260.4 0 225.4 0C152 0 104.3 44.4 104.3 124.7v70.6H22.9V288h81.4v224h100.2V288z"></path></svg>
+    </div>
+    
+    <header class="cabecalho">
+        <div class="faixa-2">
+            
+            <img src="/ASSETS/IMAGES/ImageRodas/skateLogo.png" alt="" id="logoSkater">
+        <input type="text" placeholder="O que voce esta buscando?"><svg class="icon-inline icon-2x" viewBox="0 0 30.9 31.2"><path d="m30.787 29.158-7.81-7.81a.718.718 0 0 0-.515-.212h-.624a12.538 12.538 0 0 0 3.348-8.543C25.186 5.637 19.55 0 12.593 0 5.637 0 0 5.637 0 12.593c0 6.957 5.637 12.593 12.593 12.593 3.3 0 6.297-1.271 8.543-3.342v.618c0 .194.079.375.212.514l7.81 7.81a.727.727 0 0 0 1.03 0l.599-.599a.727.727 0 0 0 0-1.029Zm-18.194-5.91A10.648 10.648 0 0 1 1.937 12.594c0-5.89 4.765-10.656 10.656-10.656A10.648 10.648 0 0 1 23.25 12.593 10.648 10.648 0 0 1 12.593 23.25Z"></path></svg></input>
+
+        <div class="utilitarios">
+            <div>
+                <svg class="icon2" viewBox="0 0 36 31" id="icon"><path d="M32.5 10H25V3.5C25 1.6 23.4 0 21.5 0h-18A3.5 3.5 0 0 0 0 3.5v10C0 15.4 1.6 17 3.5 17h2.9v3.5c0 .2.1.4.3.4l.2.1.3-.1 5.8-3.7v6.3c0 1.9 1.6 3.5 3.5 3.5h6.1l6.2 3.9.3.1.2-.1c.2-.1.3-.3.3-.4V27h2.9c1.9 0 3.5-1.6 3.5-3.5v-10c0-1.9-1.6-3.5-3.5-3.5zM7.4 19.6v-3.1c0-.3-.2-.5-.5-.5H3.5A2.5 2.5 0 0 1 1 13.5v-10C1 2.1 2.1 1 3.5 1h18C22.9 1 24 2.1 24 3.5v10c0 1.4-1.1 2.5-2.5 2.5h-8.3l-.3.1-5.5 3.5zM35 23.5c0 1.4-1.1 2.5-2.5 2.5h-3.4c-.3 0-.5.2-.5.5v3.1L23 26.1l-.2-.1h-6.3a2.5 2.5 0 0 1-2.5-2.5V17h7.5c1.9 0 3.5-1.6 3.5-3.5V11h7.5c1.4 0 2.5 1.1 2.5 2.5v10z" ></path></svg>
+                <a href="">Atendimento</a>
+            </div>
+            <div>
+                <svg class="icon2" viewBox="0 0 30 30" id="icon"><path d="M15 16.6c4.4 0 8-3.6 8-8s-3.6-8-8-8-8 3.6-8 8 3.6 8 8 8zm0-15.1c3.9 0 7 3.2 7 7s-3.1 7-7 7-7-3.2-7-7 3.1-7 7-7zM29.5 29c0 .3-.2.5-.5.5s-.5-.2-.5-.5c0-4.8-6.1-8.7-13.5-8.7S1.5 24.2 1.5 29c0 .3-.2.5-.5.5s-.5-.2-.5-.5c0-5.3 6.5-9.7 14.5-9.7s14.5 4.4 14.5 9.7z"></path></svg>
+                <a href="">Minha conta</a>
+            </div>
+            <div>
+                <svg class="iconcarro" viewBox="0 0 34.5 30.3" id="icon"><path d="M31 17.6l3-13-.1-.4-.4-.2H6.8L6 .4C5.9.2 5.7 0 5.5 0h-5C.2 0 0 .2 0 .5s.2.5.5.5h4.6L10 23.6l.2.3c-.7.6-1.2 1.6-1.2 2.6 0 1.9 1.6 3.5 3.5 3.5s3.5-1.6 3.5-3.5c0-1-.4-1.9-1.1-2.5H25c-.7.6-1.1 1.5-1.1 2.5 0 1.9 1.6 3.5 3.5 3.5s3.5-1.6 3.5-3.5-1.5-3.5-3.4-3.5H10.9l-1.1-5h20.7c.2 0 .4-.2.5-.4zm-1 8.9c0 1.4-1.1 2.5-2.5 2.5S25 27.9 25 26.5s1.1-2.5 2.5-2.5 2.5 1.1 2.5 2.5zm-15 0c0 1.4-1.1 2.5-2.5 2.5S10 27.9 10 26.5s1.1-2.5 2.5-2.5 2.5 1.1 2.5 2.5zM9.6 17L7 5h25.9l-2.8 12H9.6z"></path></svg>
+                <a href="">Meu carrinho</a>
+            </div>
+        </div>
+    </div>
+
+        <section class="listas" id="ls">
+            <div>
+                <a href="">Todas as Categorias</a>
+               <svg class="icon-inline icon-md" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M441.9 167.3l-19.8-19.8c-4.7-4.7-12.3-4.7-17 0L224 328.2 42.9 147.5c-4.7-4.7-12.3-4.7-17 0L6.1 167.3c-4.7 4.7-4.7 12.3 0 17l209.4 209.4c4.7 4.7 12.3 4.7 17 0l209.4-209.4c4.7-4.7 4.7-12.3 0-17z"></path></svg>
+            </div>
+            
+            <div>
+                <a href="">Shapes</a>
+               <svg class="icon-inline icon-md" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M441.9 167.3l-19.8-19.8c-4.7-4.7-12.3-4.7-17 0L224 328.2 42.9 147.5c-4.7-4.7-12.3-4.7-17 0L6.1 167.3c-4.7 4.7-4.7 12.3 0 17l209.4 209.4c4.7 4.7 12.3 4.7 17 0l209.4-209.4c4.7-4.7 4.7-12.3 0-17z"></path></svg>
+            </div>
+            
+            <div>
+                <a href="">Skate Completo</a>
+               <svg class="icon-inline icon-md" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M441.9 167.3l-19.8-19.8c-4.7-4.7-12.3-4.7-17 0L224 328.2 42.9 147.5c-4.7-4.7-12.3-4.7-17 0L6.1 167.3c-4.7 4.7-4.7 12.3 0 17l209.4 209.4c4.7 4.7 12.3 4.7 17 0l209.4-209.4c4.7-4.7 4.7-12.3 0-17z"></path></svg>
+            </div>
+            
+            <div>
+                <a href="">longboard Completo</a>
+               <svg class="icon-inline icon-md" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M441.9 167.3l-19.8-19.8c-4.7-4.7-12.3-4.7-17 0L224 328.2 42.9 147.5c-4.7-4.7-12.3-4.7-17 0L6.1 167.3c-4.7 4.7-4.7 12.3 0 17l209.4 209.4c4.7 4.7 12.3 4.7 17 0l209.4-209.4c4.7-4.7 4.7-12.3 0-17z"></path></svg>
+            </div>
+            
+            <div>
+                <a href="">Fingerboards</a>
+               <svg class="icon-inline icon-md" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M441.9 167.3l-19.8-19.8c-4.7-4.7-12.3-4.7-17 0L224 328.2 42.9 147.5c-4.7-4.7-12.3-4.7-17 0L6.1 167.3c-4.7 4.7-4.7 12.3 0 17l209.4 209.4c4.7 4.7 12.3 4.7 17 0l209.4-209.4c4.7-4.7 4.7-12.3 0-17z"></path></svg>
+            </div>
+            
+            <div>
+                <a href="">Promocoes</a>
+               <svg class="icon-inline icon-md" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M441.9 167.3l-19.8-19.8c-4.7-4.7-12.3-4.7-17 0L224 328.2 42.9 147.5c-4.7-4.7-12.3-4.7-17 0L6.1 167.3c-4.7 4.7-4.7 12.3 0 17l209.4 209.4c4.7 4.7 12.3 4.7 17 0l209.4-209.4c4.7-4.7 4.7-12.3 0-17z"></path></svg>
+            </div>
+
+                <div>
+            <a href="">Como Comprar?</a>
+         <svg class="icon-inline icon-md" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M441.9 167.3l-19.8-19.8c-4.7-4.7-12.3-4.7-17 0L224 328.2 42.9 147.5c-4.7-4.7-12.3-4.7-17 0L6.1 167.3c-4.7 4.7-4.7 12.3 0 17l209.4 209.4c4.7 4.7 12.3 4.7 17 0l209.4-209.4c4.7-4.7 4.7-12.3 0-17z"></path></svg>
+        </div>
+        </section>
+
+    </header>
+    
+        <section class="s2">
+            <div class="text-Rodas">
+                <h1>Rodas</h1>
+                <p>A melhores rodas nacionais e importadas para seu skate! Vários tamanhos e durezas.</p>
+            </div>
+            
+            <div class="none">
+            <div class="utilitarios-2">
+                <div class="mini_utili">
+                    <a href="">Inicio</a>
+                    <span>></span>
+                    <a href="">Acessorio</a>
+                    <span>></span>
+                    <a href="">Rodas</a>
+
+                </div>
+                
+                <select Name="Name_of_list_box" Size="Number_of_options">
+                    <option> Mais vendidos </option>  
+                    <option> Preço: Menor ao Maior </option>  
+                    <option> Preço: Maior ao Menor </option>  
+                    <option> A - Z </option>  
+                    <option> Z - A </option>  
+                    <option> Mais Novo ao mais Antigo </option>  
+                    <option> Mais Antigo ao mais Novo </option>  
+                  
+                  </select>  
+                
+            </div>
+            
+            <div id="filtrar_none">
+                <a href="">Filtrar</a>
+            </div>
+
+            </div>
+
+        </section>
+
+        <section class="s3">
+
+            <div class="filtros">
+                <h3>Filtrar por</h3>
+
+                <div class="checkbox">
+                    <p>Marca</p>
+                    <input type="checkbox" class="caixinha">
+                    <label> Black sheep</label><br>
+                    <input type="checkbox" class="caixinha">
+                    <label>  Bones Wheels (2)</label><br>
+                    <input type="checkbox" class="caixinha">
+                    <label> Girls</label><br>
+                    <input type="checkbox" class="caixinha">
+                    <label>Moska</label><br>
+                    <input type="checkbox" class="caixinha">
+                    <label> Next</label><br>
+                    <input type="checkbox" class="caixinha">
+                    <label> pig</label><br>
+                    <input type="checkbox" class="caixinha">
+                    <label> Wood Light</label><br>
+
+                </div>
+
+                <div class="input_text">
+                    <p>Preco</p>
+                    <label for=""> de</label>
+                    <input type="text">
+                    <label for="">ate</label>
+                    <input type="text">
+                    <button>></button>
+                </div>
+            </div>
+
+            <section class="rodas">
+                
+                <div class="linha-1">
+
+                    <div class="blocosRodas">
+                        <img src="../ASSETS/IMAGES/ImageRodas/roda-1.webp" alt="">
+                     <div class="linhazinha2"></div>
+
+                        <p>Roda de Skate Bones V1 xstf 54mm</p>
+                        <h1>R$499,90  <b>R$399,90</b> </h1>
+                        <p>10x de R$39,99 sem juros</p>
+                    </div>
+
+                    <div class="blocosRodas">
+                        <img src="../ASSETS/IMAGES/ImageRodas/roda-2.webp" alt="">
+                     <div class="linhazinha2"></div>
+
+                        <p>Roda de Skate Bones V3 xstf 54mm</p>
+                        <h1>R$499,90  <b>R$399,90</b> </h1>
+                        <p>10x de R$39,99 sem juros</p>
+                    </div>
+
+                    <div class="blocosRodas">
+                        <img src="../ASSETS/IMAGES/ImageRodas/roda-3.webp" alt="">
+                     <div class="linhazinha2"></div>
+
+                        <p>Roda de Skate Girl Cruisers 52mm</p>
+                        <h1>R$249,90  <b>R$159,90</b> </h1>
+                        <p>10x de R$15,99 sem juros</p>
+                    </div>
+                </div>
+
+                <div class="linha-2">
+
+                    <div class="blocosRodas">
+                        <img src="../ASSETS/IMAGES/ImageRodas/roda-4.webp" alt="">
+                     <div class="linhazinha2"></div>
+
+                        <p>Roda de Skate Black Sheep 55mm</p>
+                        <h1>R$159,90  <b>R$119,90</b> </h1>
+                        <p>10x de R$11,99 sem juros</p>
+                    </div>
+
+                    <div class="blocosRodas">
+                        <img src="../ASSETS/IMAGES/ImageRodas/roda-5.webp" alt="">
+                     <div class="linhazinha2"></div>
+
+                        <p>Roda de Skate Black Sheep Amarela 53mm 97A</p>
+                        <h1>R$159,90  <b>R$119,90</b> </h1>
+                        <p>10x de R$11,99 sem juros</p>
+                    </div>
+
+                    <div class="blocosRodas">
+                        <img src="../ASSETS/IMAGES/ImageRodas/roda-6.webp" alt="">
+                     <div class="linhazinha2"></div>
+
+                        <p>Roda de Skate Moska Rock 55mm 53d</p>
+                        <h1>R$189,90  <b>R$129,90</b> </h1>
+                        <p>10x de R$12,99 sem juros</p>
+                    </div>
+                </div>
+
+                <div class="linha-3">
+
+                    <div class="blocosRodas">
+                        <img src="../ASSETS/IMAGES/ImageRodas/roda-7.webp" alt="">
+                     <div class="linhazinha2"></div>
+
+                        <p>Roda de Skate Moska Calibre 60mm 53d</p>
+                        <h1>R$229,90  <b>R$179,90</b> </h1>
+                        <p>10x de R$17,99 sem juros</p>
+                    </div>
+
+                    <div class="blocosRodas">
+                        <img src="../ASSETS/IMAGES/ImageRodas/roda-8.webp" alt="">
+                     <div class="linhazinha2"></div>
+
+                        <p>Roda de Skate Moska Rock 53mm 53d</p>
+                        <h1>R$179,90  <b>R$119,90</b> </h1>
+                        <p>10x de R$11,99 sem juros</p>
+                    </div>
+
+                    <div class="blocosRodas">
+                        <img src="../ASSETS/IMAGES/ImageRodas/roda-9.gif" alt="">
+                     <div class="linhazinha2"></div>
+
+                        <p>Roda de Skate Next Azul 53mm</p>
+                        <h1>R$129,90 <b> R$89,90</b> </h1>
+                        <p> 10x de R$8,99 sem juros</p>
+                    </div>
+                </div>
+
+                <div class="linha-4">
+
+                    <div class="blocosRodas">
+                        <img src="../ASSETS/IMAGES/ImageRodas/roda-10.gif" alt="">
+                     <div class="linhazinha2"></div>
+
+                        <p>Roda de Skate Next Vermelha 53mm</p>
+                        <h1>R$129,90 <b> R$89,90</b> </h1>
+                        <p>10x de R$8,99 sem juros</p>
+                    </div>
+
+                    <div class="blocosRodas">
+                        <img src="../ASSETS/IMAGES/ImageRodas/roda-12.webp" alt="">
+                     <div class="linhazinha2"></div>
+
+                        <p>Roda de Skate Pig 55mm</p>
+                        <h1>R$259,90  <b>R$194,90</b> </h1>
+                        <p>10x de R$19,49 sem juros</p>
+                    </div>
+
+                    <div class="blocosRodas">
+                        <img src="../ASSETS/IMAGES/ImageRodas/roda-13.webp" alt="">
+                     <div class="linhazinha2"></div>
+
+                        <p>Roda de Skate Iniciante Wood Light Branca 53mm</p>
+                        <h1>R$69,90 <b> R$49,90</b> </h1>
+                        <p>9x de R$5,54 sem juros</p>
+                    </div>
+                </div>
+
+                <div class="linha-5">
+
+                    <div class="blocosRodas">
+                        <img src="../ASSETS/IMAGES/ImageRodas/roda-14.webp" alt="">
+                     <div class="linhazinha2"></div>
+
+                        <p>Roda de Skate Iniciante Wood Light Preta 53mm</p>
+                        <h1>R$69,90 <b> R$49,90</b> </h1>
+                        <p></p>
+                    </div>
+
+                    <div class="blocosRodas">
+                        <img src="../ASSETS/IMAGES/ImageRodas/roda-15.webp" alt="">
+                     <div class="linhazinha2"></div>
+
+                        <p>Roda de Skate Profissional Wood Light 55mm</p>
+                        <h1>R$159,90  <b>R$119,90</b> </h1>
+                        <p>10x de R$11,99 sem juros</p>
+                    </div>
+
+                    <div class="blocosRodas">
+                        <img src="../ASSETS/IMAGES/ImageRodas/roda-16.webp" alt="">
+                     <div class="linhazinha2"></div>
+
+                        <p>Roda de Longboard Preta 64mm</p>
+                        <h1>R$219,90  <b>R$169,90</b> </h1>
+                        <p>10x de R$16,99 sem juros</p>
+                    </div>
+                </div>
+
+                <div class="linha-6">
+
+                    <div class="blocosRodas">
+                        <img src="../ASSETS/IMAGES/ImageRodas/roda-17.webp" alt="">
+                     <div class="linhazinha2"></div>
+
+                        <p>Roda de Longboard Laranja 64mm</p>
+                        <h1>R$219,90  <b>R$169,90</b> </h1>
+                        <p>10x de R$16,99 sem juros</p>
+                    </div>
+
+                    <div class="blocosRodas">
+                        <img src="../ASSETS/IMAGES/ImageRodas/roda-18.webp" alt="">
+                     <div class="linhazinha2"></div>
+
+                        <p>Roda de Longboard Amarela 64mm</p>
+                        <h1>R$219,90  <b>R$169,90</b> </h1>
+                        <p>10x de R$16,99 sem juros</p>
+                    </div>
+
+                    <div class="blocosRodas">
+                        <img src="../ASSETS/IMAGES/ImageRodas/roda-19.webp" alt="">
+                     <div class="linhazinha2"></div>
+
+                        <p>Roda de Skate Black Sheep 60mm</p>
+                        <h1>R$249,90  <b>R$179,90</b> </h1>
+                        <p>10x de R$17,99 sem juros</p>
+                    </div>
+                </div>
+
+                <div class="linha-7">
+
+                    <div class="blocosRodas">
+                        <img src="../ASSETS/IMAGES/ImageRodas/roda-20.gif" alt="">
+                     <div class="linhazinha2"></div>
+
+                        <p>Roda de Skate Moska Raul Roger 56mm 55d</p>
+                        <h1>R$229,90  <b>R$159,90</b> </h1>
+                        <p>10x de R$15,99 sem juros</p>
+                    </div>
+
+                    <div class="blocosRodas">
+                        <img src="../ASSETS/IMAGES/ImageRodas/roda-15.webp" alt="">
+                     
+<div class="linhazinha2"></div>
+                        <p>Roda de Skate Moska André Will 54mm 53d</p>
+                        <h1>R$179,90 R <b>$119,90
+</b> </h1>
+                        <p></p>
+                    </div>
+                    
+                </div>
+                
+            </section>
+            
+        </section>
+        
+
+        <footer>
+            <div class="colunas">
+            <div class="coluna-1">
+                <h1>Departamentos</h1>
+                <p>Como Comprar?</p>
+                <p>Política de Privacidade</p> 
+                <p>Contato</p>
+                <p>Trocas e Devoluções</p>
+                <p>Sobre a Marca</p>
+                <p>Perguntas Frequentes</p>
+                <p>Guia de Medidas</p>
+
+            </div>
+
+            <div class="coluna-2">
+                <h1>Entre em contato</h1>
+                 <p>5519971614978</p>
+                <p>(19) 97161-4978</p>
+                <p>atendimento@woodlight.com.br</p>
+                <p>Avenida Iracy Berezoski Cayres 240 Bloco B</p>
+
+            </div>
+
+            <div class="coluna-3">
+                <h1>Permaneça conectado</h1>
+
+                <div class="redes">
+                <div> 
+                <svg class="icon-inline icon-lg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+               
+            </div>
+            <div>
+                <svg class="icon-inline icon-lg" viewBox="0 0 320 512"><path d="M279.1 288l14.3-92.7h-89v-60c0-25.4 12.5-50.2 52.3-50.2H297V6.4S260.4 0 225.4 0C152 0 104.3 44.4 104.3 124.7v70.6H22.9V288h81.4v224h100.2V288z"></path></svg>
+            </div>
+
+            </div>
+</div>
+
+</div>
+<div class="linhazinha"></div>
+
+
+        </footer>
+<div class="faixa_preta">
+    <p>copyright Wood Light - 31524912000196 - 2023. Todos os direitos reservados.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+}
+
+.container{
+    background-color: bisque;
+    height: 100vh;
+padding: 10px;
+}
+
+.sub{
+    border: 4px solid brown;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    justify-content: space-around;
+}
+
+
+    
+#esquerda{
+height: 300px;
+width: 200px;
+border:3px solid black;
+
+}
+
+#circulo{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    border:10px solid ;
+    border-radius: 400px;
+    
+
+}
+
+#direita{
+
+    height: 300px;
+width: 200px;
+border:3px solid black
+}
